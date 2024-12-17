@@ -71,8 +71,11 @@ function MemoryGame() {
 
   const playWinSound = useCallback(() => {
     if (!muted) {
-      const audio = new Audio("https://cdn.pixabay.com/audio/2022/03/24/audio_75314cc22a.mp3");
-      audio.play();
+      // NOTE: Audio playback is commented out due to Content Security Policy limitations in Claude artifacts
+      // which prevent loading media from external sources
+      // const audio = new Audio("https://github.com/jeffbarnette/memorygame/blob/4a366b261fb1693ce01cec46a251d502cd7b6a94/applause-75314.mp3?raw=true");
+      // audio.play();
+      console.log('Win sound would play here in production environment');
     }
   }, [muted]);
 
