@@ -2,6 +2,11 @@
 
 A fun and interactive memory card game built with React and TypeScript that tests your memory while learning about different programming languages!
 
+Play it now! https://claude.site/artifacts/08b1deec-f0a7-4487-9ca8-77a52ce34236
+
+![Screenshot 2024-12-28 at 5 38 29 PM](https://github.com/user-attachments/assets/e6995252-130b-41da-9961-d4bfb9dfaa23)
+
+
 ## 🎮 Game Features
 
 - Match pairs of programming language cards
